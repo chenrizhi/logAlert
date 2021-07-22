@@ -1,0 +1,8 @@
+logs:
+  level: debug
+  adapter: file
+  path: ./logs/logalert.log
+
+etcd:
+  address: localhost:2379
+  key: /logalert/config/
